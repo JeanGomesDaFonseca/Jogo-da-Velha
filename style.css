@@ -19,7 +19,7 @@ h1{
 position: relative;
 }
 
-.o::after{
+.o:after{
     position: absolute;
     content: "\1F98A";
     font-size: 50px;
@@ -34,7 +34,7 @@ position: relative;
     position: relative;
     }
     
-    .x::after{
+.x:after{
         position: absolute;
         content: "\1F42D";
         font-size: 50px;

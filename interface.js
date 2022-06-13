@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', () => {
 
     let squares = document.querySelectorAll(".square");
 
-    squares.forEach((square) =>{
-        square.addEventListener('click', handleClick)
+    squares.forEach((square) => {
+        square.addEventListener('click', handleClick);
     })
 
 })
@@ -17,7 +17,7 @@ function handleClick(event){
     updateSquares();
 }
 
-function updateSquares(){
+function updateSquares() {
 
     let squares = document.querySelectorAll(".square");
 
@@ -29,5 +29,4 @@ function updateSquares(){
         square.innerHTML = `<div class='${symbol}'></div>`
        }
     })
-
 }
